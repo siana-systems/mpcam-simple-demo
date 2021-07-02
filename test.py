@@ -1,5 +1,4 @@
 import cv2
-import time
 from imutils.video import ImageOutput
 
 h_out = ImageOutput(screen=False) # screen=False implies HTTP output
