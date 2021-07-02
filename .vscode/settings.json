@@ -22,8 +22,9 @@
                 "port": 22,
                 "user": "root",
                 "password": " ",
-                "dir": "/data/test"
+                "dir": "/data/mpcam-simple-demo"
             }
         ]
-    }
+    },
+    "python.pythonPath": "/home/sylvain/.virtualenvs/cv/bin/python"
 }
