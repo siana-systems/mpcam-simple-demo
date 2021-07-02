@@ -18,13 +18,8 @@ try:
         if not ret:
             print("Can't receive frame (stream end?). Exiting ...")
 
-        # set channels to zero...
-        #frame[:, :, 0] = 0   # blue
-        #frame[:, :, 1] = 0   # green
-        #frame[:, :, 2] = 0   # red
-
         h_out.stream("Webcam", frame)
-        time.sleep(1.0/30)
+
 finally:
     print(">> releasing camera...")
     cap.release()
